@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+    padding: 0;
+}
+body{
+    /* background-image: url(studiya_marvel.png); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Adjust gradient colors and direction */
+    url('media/Most-Expensive-Movies-Ever-Made.png');
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+#container {
+    padding: 0 45px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 44px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/* MARVEL UNIVERSE */
+
+.mandu{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 129px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 120px;
+    padding: 45px 0 45px;
+}
+.Explore{
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 44rem;
+}
+p.ver {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    /* line-height: 61px; */
+    margin: 20px 0;
+}
+.ver {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: fit-content;
+}
+.ver-person {
+    color: #FFF;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 20px 0;
+}
